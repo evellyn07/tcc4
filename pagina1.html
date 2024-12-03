@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos conheça</title>
+    <link rel="stylesheet" href="pagina1.css">
+</head>
+
+<header>
+<body>
+      <!-- Botões de ajuste de fonte -->
+      <div class="font-controls">
+        <button id="increase-font">A+</button>
+        <button id="decrease-font">A-</button>
+        <button id="reset-font">A</button>
+    </div>
+
+      <!-- Botão modo claro e escuro -->  
+      <label class="switch">
+        <input type="checkbox" id="theme-switch">
+        <span class="slider"></span>
+    </label>
+
+    <script src="pagina.js"></script>
+
+ <!--Logo e login -->  
+
+ <div id="menu1" class="logo">
+    <center><img src="imagens/logo.png" height="150px"; width="150px"> </center> 
+ </div>
+
+</header>
+
+<!-- Modal de Cookies -->
+<div id="cookie-modal" class="modal">
+    <div class="modal-content">
+        <h1>Este site usa cookies</h1>
+        <p>Utilizamos cookies para garantir a melhor experiência possível. Aceita o uso de cookies?</p>
+        <button id="accept-btn" onclick="acceptCookies()">Aceitar</button>
+        <button id="decline-btn" onclick="declineCookies()">Recusar</button>
+    </div>
+<script src="politica.js"></script>
+</div>
+
+  
+   <!-- Menu --> 
+   
+  <nav>
+        <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+        <ul class="menu">
+            <li><a href="pagina.html">Inicio</a></li><br>
+            <li><a href="pagina1.html">Nos conheça</a></li><br>
+            <li><a href="pagina.html">Nossos cursos</a></li><br>
+            <li><a href="pagina.html">Quizzes</a></li><br>
+        </ul>
+    </nav>
+
+    <!-- Modal para visualizar imagem ampliada -->
+    <div id="modal" class="modal">
+        <span id="closeModal">&times;</span>
+        <img class="modal-content" id="imgModal">
+    </div>
+    
+
+    <!-- Nossa equipe -->
+    <section class="container">
+        <div class="card">
+          <h3>Missão</h3>
+          <p>No Master Mind, nossa missão é promover uma educação inclusiva e acessível para todos, </p>
+          <p>desenvolvendo sistemas educativos que respeitem as diferenças e ofereçam oportunidades equitativas de aprendizado.</p>
+        </div>
+        <div class="card">
+          <h3>Visão</h3>
+          <p>Ser uma referência global em educação inclusiva, inspirando educadores, famílias e comunidades a criar um ambiente de ensino </p>
+          <p>que valorize a diversidade e potencialize as capacidades únicas de cada aluno.</p>
+        </div>
+        <div class="card">
+          <h3>Valores</h3>
+          <ul>
+            <li><strong>Inclusão:</strong> Acreditamos no poder de uma educação que acolhe e respeita todas as diferenças.</li>
+            <li><strong>Inovação:</strong> Usamos estratégias criativas e tecnologias modernas para transformar o ensino.</li>
+            <li><strong>Respeito:</strong> Valorizamos a singularidade de cada indivíduo, promovendo um ambiente de empatia e colaboração.</li>
+            <li><strong>Compromisso:</strong> Estamos dedicados a criar um futuro onde ninguém seja deixado para trás.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="galeria">
+        <div class="fotos">
+            
+        </div>
+    </section>
+    
+    <div class="equipe-section">
+        <div class="equipe-content">
+          <div class="equipe-image">
+            <img src="imagens/funcionarios.png" alt="Equipe treinando alunos">
+          </div>
+          <div class="equipe-text">
+            <h2>Nosso dever</h2>
+            <p>
+                Nossa equipe tem como principal objetivo capacitar alunos por meio de plataformas educativas inclusivas e interativas.
+              </p>
+              <p>
+                Desenvolvemos soluções inovadoras para atender às necessidades de aprendizado de todos, garantindo acessibilidade e personalização em cada etapa da jornada educacional.
+              </p>
+              <p>
+                Com foco na inclusão e na qualidade, trabalhamos para criar experiências de aprendizado transformadoras.
+              </p>
+              <p>Promovemos o conhecimento e o desenvolvimento de habilidades para o futuro.</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <section class="galeria">
+        <div class="fotos">
+            
+        </div>
+    </section>
+      
+
+<!-- Nossa equipe -->
+<section class="equipe">
+    <div class="card">
+        <img src="imagens/pessoa3.jpg" alt="Foto do CEO">
+        <h3>Isabella Costadelli - CEO</h3>
+        <p>Isabella cuidou do back end e front end, </p>
+        <p>focou nos quizzes e sistemas inclusivos.</p>
+    </div>
+    <div class="card">
+        <img src="imagens/pessoa2.jpeg" alt="Foto do Designer">
+        <h3>Evellyn Almeida - Designer</h3>
+        <p>Evellyn é responsável pela estetica do site, </p>
+        <p>cuidou das cores, containers e front end. </p>
+    <p> Tambem produziu grande parte da teoria.</p>
+    </div>
+</section>
+<section class="equipe">
+    <div class="card">
+        <img src="imagens/pessoa4.jpeg" alt="Foto do CEO">
+        <h3>Isabelli Guimarães - CTO</h3>
+        <p>Isabelli cumpriu a teoria e slide,</p>
+        <p>garantindo a apresentação. Tambem cuidou</p>
+        <p>dos documentos escritos.</p>
+    </div>
+    <div class="card">
+        <img src="imagens/pessoa5.jpeg" alt="Foto do Designer">
+        <h3>Juliana Dos Santos  CTO</h3>
+        <p>Juliana foi responsável por revisar</p>
+        <p>e juntar os documentos em um único arquivo.</p>
+    </div>
+</section>
+
+      <!-- Assessibiliade libras -->
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+
+</body>
+</html>
+</body>
+</html>
